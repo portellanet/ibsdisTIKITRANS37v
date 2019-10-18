@@ -30,13 +30,17 @@ nav#mainNavbar a{
 }
 #homeHero {
 	position: relative;
-    background: url(https://aerocar.ca/wp-content/uploads/2016/02/home-banner2.jpg) no-repeat center;
+    background: url(img/home-banner.jpg) no-repeat center;
     background-size: cover;
     color: white;
 }
 #homeHero .container{
 	position: relative;
 	z-index: 5;
+}
+.jumbotron .features img {
+    width: 42px;
+    padding: 5px;
 }
 .hero-overlay {
     position: absolute;
